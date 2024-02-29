@@ -31,7 +31,7 @@
                             Create Account
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">As Employer</a>
+                            <a class="dropdown-item" href="{{ route('employee.signin') }}">As Employer</a>
                             <a class="dropdown-item" href="#">As Job Seeker</a>
                         </div>
                     </li>

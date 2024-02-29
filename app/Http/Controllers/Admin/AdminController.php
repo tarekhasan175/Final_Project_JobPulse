@@ -18,6 +18,11 @@ class adminController extends Controller
         return view('pages.admin.dashboard');
     }
 
+    public function employeeSignin()
+    {
+        return view('pages.auth.employee-signin');
+    }
+
     public function signin(Request $request)
     {
         $request->validate([
